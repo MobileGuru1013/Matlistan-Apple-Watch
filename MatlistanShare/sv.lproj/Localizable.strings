@@ -1,0 +1,15 @@
+/* 
+  ShareStrings.strings
+  Matlistan
+
+  Created by Artem Bakanov on 12/18/15.
+  Copyright © 2015 Consumiq AB. All rights reserved.
+*/
+
+"not_a_recipe"="Tyvärr hittade vi inget recept på den delade sidan.";
+"web_page_error"="Tyvärr kunde vi inte förstå vad du har delat till Matlistan.";
+"login_error"="Det gick inte att autentisera dig. Var vänlig öppna appen för att logga in, och försök sedan igen.";
+"recipe_uploaded"="Receptet har nu sparats i din receptsamling.";
+"logging_in"="Loggar in...";
+"uploading_recipe"="Hämtar och analyserar recept...";
+"not_authorized"="Du är inte inloggad. Var vänlig öppna appen för att logga in, och försök sedan igen.";

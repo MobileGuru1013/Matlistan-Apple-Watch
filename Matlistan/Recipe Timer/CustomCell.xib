@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="timer_cell" rowHeight="122" id="lrK-3K-BGj" customClass="CustomCell">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="lrK-3K-BGj" id="xQM-Uw-OlY">
+                <rect key="frame" x="0.0" y="0.0" width="768" height="151"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mSg-dd-kiu">
+                        <rect key="frame" x="16" y="4" width="752" height="35"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="c2x-IO-olW">
+                        <rect key="frame" x="16" y="37" width="752" height="35"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fSe-9e-nDG">
+                        <rect key="frame" x="0.0" y="76" width="768" height="76"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </button>
+                    <view contentMode="scaleToFill" id="g03-pc-PDy">
+                        <rect key="frame" x="152" y="76" width="464" height="76"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ISk-ym-kPk">
+                                <rect key="frame" x="4" y="3" width="108" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                <inset key="titleEdgeInsets" minX="-40" minY="0.0" maxX="0.0" maxY="-47"/>
+                                <inset key="imageEdgeInsets" minX="11" minY="-16" maxX="-84" maxY="0.0"/>
+                                <state key="normal" title="Show Recipe" image="showRecipe">
+                                    <color key="titleColor" red="0.36470588240000001" green="0.73333333329999995" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VFK-V8-Ntn">
+                                <rect key="frame" x="176" y="3" width="112" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                <inset key="titleEdgeInsets" minX="-34" minY="0.0" maxX="0.0" maxY="-45"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="-18" maxX="-84" maxY="0.0"/>
+                                <state key="normal" title="Stop Timer" image="stopTimer">
+                                    <color key="titleColor" red="0.36470588240000001" green="0.73333333329999995" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GZq-Je-dTH">
+                                <rect key="frame" x="347" y="3" width="112" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="16"/>
+                                <inset key="titleEdgeInsets" minX="-35" minY="0.0" maxX="0.0" maxY="-47"/>
+                                <inset key="imageEdgeInsets" minX="-2" minY="-19" maxX="-84" maxY="0.0"/>
+                                <state key="normal" title="Add Minute" image="addMin">
+                                    <color key="titleColor" red="0.36470588240000001" green="0.73333333329999995" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                    </view>
+                </subviews>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addMinuteButton" destination="GZq-Je-dTH" id="B3d-Eh-Zs3"/>
+                <outlet property="recipeTimerLabel" destination="c2x-IO-olW" id="Eiq-EZ-Uke"/>
+                <outlet property="recipeTitleLabel" destination="mSg-dd-kiu" id="QJz-hG-vXj"/>
+                <outlet property="showRecipeButton" destination="ISk-ym-kPk" id="fBh-3N-v4S"/>
+                <outlet property="stopTimerButton" destination="VFK-V8-Ntn" id="1sw-Yw-XN1"/>
+            </connections>
+            <point key="canvasLocation" x="355" y="188"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="addMin" width="40" height="40"/>
+        <image name="showRecipe" width="45" height="45"/>
+        <image name="stopTimer" width="45" height="45"/>
+    </resources>
+</document>

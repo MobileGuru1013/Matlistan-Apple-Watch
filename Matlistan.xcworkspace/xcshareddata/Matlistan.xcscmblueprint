@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "026593f5-5d82-0040-8501-26f707ee21ff",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "026593f5-5d82-0040-8501-26f707ee21ff" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "026593f5-5d82-0040-8501-26f707ee21ff" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "658D97E7-F361-49F6-904D-ED334A8B278D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "026593f5-5d82-0040-8501-26f707ee21ff" : "MatListan\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Matlistan",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Matlistan\/Matlistan.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/local.moontechnolabs.com\/svn\/MatListan",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "026593f5-5d82-0040-8501-26f707ee21ff"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{  "list":    [
+               {
+               "address": "Eriksbergstorg 1, 41764 Göteborg",
+               "city": "Göteborg",
+               "id": 885,
+               "isFavorite": 0,
+               "itemsSortedPercent": 0,
+               "name": "Tempo Eriksberg",
+               "postalAddress": "Eriksbergstorg 1",
+               "postalCode": 41764,
+               "title": "Tempo Eriksberg, Eriksbergstorg 1, 41764 Göteborg"
+               },
+               {
+               "address": "Kolhamnsgatan 7, 41761 Göteborg",
+               "city": "Göteborg",
+               "id": 2106,
+               "isFavorite": 0,
+               "itemsSortedPercent": 2,
+               "name": "Coop Extra Eriksberg",
+               "postalAddress": "Kolhamnsgatan 7",
+               "postalCode": 41761,
+               "title": "Coop Extra Eriksberg, Kolhamnsgatan 7, 41761 Göteborg"
+               },
+               {
+               "address": "Karl Johansgatan 21, 41459 Göteborg",
+               "city": "Göteborg",
+               "id": 2911,
+               "isFavorite": 0,
+               "itemsSortedPercent": 0,
+               "name": "Ica Supermarket Majorna",
+               "postalAddress": "Karl Johansgatan 21",
+               "postalCode": 41459,
+               "title": "Ica Supermarket Majorna, Karl Johansgatan 21, 41459 Göteborg"
+               }
+               ]
+}

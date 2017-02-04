@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15C50" minimumToolsVersion="Xcode 4.3">
+    <entity name="Active_recipe" representedClassName="Active_recipe" syncable="YES">
+        <attribute name="active_recipeID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+                <entry key="relatedByAttribute" value="active_recipeID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="ingredients" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientsMarkup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isCooked" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="isPurchased" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemOrder" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="listID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="occasion" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="portions" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="portions2" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="recipeID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="recipeId"/>
+                <entry key="relatedByAttribute" value="recipeID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="EndpointHash" representedClassName="EndpointHash" syncable="YES">
+        <attribute name="activeRecipesHash" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="favoriteItemsHash" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemListsHash" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemsHash" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="recipeCount" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="recipeBoxIndicators.count"/>
+            </userInfo>
+        </attribute>
+        <attribute name="recipeUpdatedAt" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="recipeBoxIndicators.updatedAt"/>
+            </userInfo>
+        </attribute>
+        <attribute name="storesHash" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalHash" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Ingredient" representedClassName="Ingredient" syncable="YES">
+        <attribute name="isCategory" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isProbablyNeeded" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="knownItemText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="possibleMatchText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantityText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="recipeID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortableText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unitText" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongToRecipe" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Recipebox" inverseName="containIngredients" inverseEntity="Recipebox" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="recipeID"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="Item" representedClassName="Item" syncable="YES">
+        <attribute name="addedAt" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="attributeValueClassName" value="NSInteger"/>
+            </userInfo>
+        </attribute>
+        <attribute name="addedAtTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="addedAtTime_local" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="barcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="barcodeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="checkedAfterStart" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupedSortIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="groupedText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isChecked" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="isDefaultMatch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPermanent" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPossibleMatch" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="isTaken" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+                <entry key="relatedByAttribute" value="itemID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="knownItemText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="listId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="listObjectID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="manualSortIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="matchingItemText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mayBeDefaultMatch" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="placeCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="possibleMatches" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="searchedText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secs_after_start" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="secs_after_start_local" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="serverIndex" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="source" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="belongToList" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Item_list" inverseName="items" inverseEntity="Item_list" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="item_listID"/>
+            </userInfo>
+        </relationship>
+        <relationship name="itemsCheckedStatus" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ItemsCheckedStatus" inverseName="item" inverseEntity="ItemsCheckedStatus" syncable="YES"/>
+    </entity>
+    <entity name="Item_list" representedClassName="Item_list" syncable="YES">
+        <attribute name="isDefault" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="item_listID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+                <entry key="relatedByAttribute" value="item_listID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="manualSortingSyncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="manualSortOrderIsGrouped" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortByStoreId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sortOrderSyncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="items" toMany="YES" deletionRule="Cascade" destinationEntity="Item" inverseName="belongToList" inverseEntity="Item" syncable="YES"/>
+        <relationship name="relatedStore" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Store" inverseName="relatedItemsList" inverseEntity="Store" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="sortByStoreId"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="ItemListsSorting" syncable="YES">
+        <attribute name="item_listID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="shopID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sortedItems" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="sortingHashCode" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="unknownItems" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="ItemsCheckedStatus" representedClassName="ItemsCheckedStatus" syncable="YES">
+        <attribute name="checkedReason" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="deviceId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isChecked" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isTaken" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="itemID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="itemID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="itemObjectID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="listID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="networks" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="positionAccuracy" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="secondsAfterStart" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="item" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Item" inverseName="itemsCheckedStatus" inverseEntity="Item" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="itemID"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="Recipebox" representedClassName="Recipebox" syncable="YES">
+        <attribute name="advice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cookCount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cookTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="cooktime_sorting" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptionText" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="description"/>
+            </userInfo>
+        </attribute>
+        <attribute name="imageFileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="imageUrls.url"/>
+            </userInfo>
+        </attribute>
+        <attribute name="ingredients" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ingredientsMarkup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instructions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="instructionsMarkup" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isPublic" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastCookedAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastCookedAtTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="lastViewedAt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="notes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="originalCookTime" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="originalCookTimeSpanLower" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="portions" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="portions_span_lower" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="portionType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="recipeboxID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+                <entry key="relatedByAttribute" value="recipeboxID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="sel_portions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source_original_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source_text" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="source.text"/>
+            </userInfo>
+        </attribute>
+        <attribute name="source_url" optional="YES" attributeType="String" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="source.url"/>
+            </userInfo>
+        </attribute>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="containIngredients" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Ingredient" inverseName="belongToRecipe" inverseEntity="Ingredient" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="recipeboxID"/>
+            </userInfo>
+        </relationship>
+        <relationship name="relatedActiveRecipe" optional="YES" maxCount="1" deletionRule="Deny" destinationEntity="Active_recipe" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="recipeboxID"/>
+            </userInfo>
+        </relationship>
+        <relationship name="relatedTags" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Recipebox_tag" inverseName="forRecipe" inverseEntity="Recipebox_tag" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="recipeboxID"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="Recipebox_tag" representedClassName="Recipebox_tag" syncable="YES">
+        <attribute name="recipeID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="forRecipe" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Recipebox" inverseName="relatedTags" inverseEntity="Recipebox" syncable="YES">
+            <userInfo>
+                <entry key="relatedByAttribute" value="recipeID"/>
+            </userInfo>
+        </relationship>
+    </entity>
+    <entity name="SearchedStore" representedClassName="SearchedStore" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="itemsSortedPercent" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="searchedStoreID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+                <entry key="relatedByAttribute" value="searchedStoreID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Store" representedClassName="Store" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" defaultValueString="0" syncable="YES"/>
+        <attribute name="itemsSortedPercent" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="postalCode" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="serverid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="storeID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+                <entry key="relatedByAttribute" value="storeID"/>
+            </userInfo>
+        </attribute>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relatedItemsList" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Item_list" inverseName="relatedStore" inverseEntity="Item_list" syncable="YES"/>
+    </entity>
+    <entity name="Visit" representedClassName="Visit" syncable="YES">
+        <attribute name="list" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="started_at" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="syncStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="time_diff" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="visitID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES">
+            <userInfo>
+                <entry key="mappedKeyName" value="id"/>
+                <entry key="relatedByAttribute" value="visitID"/>
+            </userInfo>
+        </attribute>
+    </entity>
+    <elements>
+        <element name="Active_recipe" positionX="0" positionY="0" width="128" height="240"/>
+        <element name="EndpointHash" positionX="0" positionY="0" width="128" height="165"/>
+        <element name="Ingredient" positionX="0" positionY="0" width="128" height="225"/>
+        <element name="Item" positionX="0" positionY="0" width="128" height="510"/>
+        <element name="Item_list" positionX="0" positionY="0" width="128" height="210"/>
+        <element name="ItemListsSorting" positionX="0" positionY="0" width="128" height="120"/>
+        <element name="ItemsCheckedStatus" positionX="0" positionY="0" width="128" height="255"/>
+        <element name="Recipebox" positionX="0" positionY="0" width="128" height="555"/>
+        <element name="Recipebox_tag" positionX="0" positionY="0" width="128" height="105"/>
+        <element name="SearchedStore" positionX="0" positionY="0" width="128" height="195"/>
+        <element name="Store" positionX="0" positionY="0" width="128" height="240"/>
+        <element name="Visit" positionX="0" positionY="0" width="128" height="135"/>
+    </elements>
+</model>

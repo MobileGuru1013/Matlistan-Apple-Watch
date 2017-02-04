@@ -1,0 +1,351 @@
+/* 
+  Localizable.strings
+  MatListan
+*/
+"Rate App Title"="Betygsätt Matlistan";
+"Rate App message"="Tack för att du använder Matlistan! Betygsätt gärna senaste versionen av appen i butiken.";
+"Rate It Now"="Betygsätt nu";
+"Remind Me Later"="Påmin mig senare";
+"No, Thanks" = "Nej, tack";
+"Ok" = "Ok";
+"No internet" = "Internetanslutningen verkar vara offline.";
+"Enter credentials" = "Ange uppgifter";
+"Login failed"="Inloggningen misslyckades";
+"Enter new password" = "Ange nytt lösenord";
+"Continue without synchronization" = "Fortsätt utan synkronisering";
+"Retry" = "Försök igen";
+"New Password" = "Nytt Lösenord";
+"Login" = "Logga in";
+"forgot"="glömt";
+"Log in"="Logga in";
+"Log out"="Logga ut";
+"Sign in" = "Logga in";
+"Email"="E-post";
+"Password" = "Lösenord";
+"Login with Facebook" = "Logga in med Facebook";
+"Facebook account" = "Facebook-konto";
+"Register later" = "Logga in senare";
+"Fail to log in"="Kunde inte logga in";
+"Wrong email or password"="Felaktig e-post eller lösenord";
+"Create account"="Skapa konto";
+"Register" = "Registrera";
+"No account?" = "Inget konto?";
+
+"Password"="Lösenord";
+"Add"="Lägg till";
+"Save"="Spara";
+"Cancel"="Avbryt";
+"Settings"="Inställningar";
+"Close"="Stäng";
+"Missing information"="Information saknas";
+"Error"="Fel";
+"FailedConnection"="Internetanslutning saknas. Vad god försök igen senare.";
+"Add new item"="Lägg till ny vara";
+"Latest Top"="Senast överst";
+"Alphabetically"="Alfabetiskt";
+"By Category"="Per Kategori";
+"Sort By Store"="Sortera efter butik";
+"Choose sorting order"="Välj sortering";
+"In the store"="I butik";
+"Taken"="Tagen";
+"Caught at wrong place"="Tagen på fel plats";
+"Out"="Tillfälligt slut";
+"Not in the collection"="Finns inte i sortimentet";
+"Shop next time"="Handla nästa gång";
+"Remove"="Ta bort";
+"Change"="Ändra";
+"Bought"="Handlat";
+"Plan"="Planera";
+"Delete"="Ta bort";
+"More"="Mer";
+"Cooked"="Tillagat";
+"Recipes to shop"="Recept att handla";
+"Recipes to cook"="Recept att tillaga";
+"Source"="Källa";
+"Tags"="Etiketter";
+"Common Questions"="Vanliga frågor";
+"Contact Us"="Kontakta oss";
+"Rate the App"="Betygsätt appen";
+"Help"="Hjälp/Om";
+"Recipe cannot be deleted"="Det gick inte att ta bort receptet, troligtvis på grund av att det även finns i din matplanering";
+"Do you want to remove the recipe?"="Vill du ta bort receptet från din receptsamling?";
+"Do you want to remove the Plan recipe?"="Vill du ta bort receptet från din planering?";
+"Do you want to remove the item?"="Vill du ta bort varan?";
+"Are you sure?"="Är du säker?";
+"Info"="Information";
+"Data Collection"="Insamling av data";
+"Link account"="Länka konton";
+"Change account"="Byta konto";
+"Vibrate" = "Vibrera när vara tas";
+"Vibrate on pick/drop item" = "Vibrera på plockning / släpp objekt";
+"Latest first"="Senast";
+"Alphabetically"="Alfabetiskt";
+"By category"="Per kategori";
+"Own sorting"="Egen sortering";
+"Another store"="Annan butik...";
+"Unsorted items"="Osorterade varor";
+"Sorted items"="Sorterade varor";
+"Sorting"="Sortering";
+"Sort items for"="Sorterar varor för";
+"Removed Items"="Tagna varor";
+"LittleDataInfo"="Vi har tyvärr för lite data för att kunna sortera dina varor för denna butik. Besök butiken ett par gånger för att låta appen lära sig varornas placering.";
+"SortingRequestFailure"="Varorna kunde inte sorteras\n på grund av kommunikationsfel";
+"Confirm password"="Bekräfta lösenord";
+"PasswordNotMatch"="Ditt lösenord och det bekräftade lösenordet matchar inte.";
+"EmailError"="Din email måste vara giltig";
+"PasswordEmptyError"="Lösenordet får inte vara tomt";
+"RegisterError"="Misslyckades att registrera.";
+"Do you want to remove the list?"="Vill du ta bort listan?";
+"Loading"="Laddar ner data";
+"Your recipe collection is empty."="Din receptsamling är tom.";
+"No recipes are planned."="Inga recept har planerats.";
+"portions"="portioner";
+"portion"="portion";
+"Instruction"="Instruktioner";
+"Ingredients"="Ingredienser";
+"Shopping List"="Inköpslista";
+"Planned Recipes"="Matplanering";
+"Recipes"="Receptsamling";
+"Settings"="Inställningar";
+"Help/About"="Hjälp/Om";
+"Remove Ads"="Ta bort reklamen";
+"LATEST VIEWED RECIPES"="SENAST VISADE RECEPT";
+"You are not logged in"="Du är inte inloggad.";
+"You have logged in as"="Du har loggat in som";
+"Login to get access to all the functions of menus is offering" = "Logga in för att kunna synkronisera mellan alla dina enheter.";
+"Are you sure you want to logout?"="Är du säker på att du vill logga ut?";
+"If an error happens, the app can report the error to the developer."="Om ett fel inträffar, kan appen automatiskt rapportera felet till utvecklarna.";
+"Link you account together with another account to see the same lists"="Länka ihop ditt konto med andra användare för att se samma matlistor.";
+"Latest first"="Senast överst";
+"Alphabetically"="Alfabetiskt";
+"By category"="Per kategori";
+"Own sorting"="Egen sortering";
+"Another shop"="Annan butik ...";
+"Terms of Service" = "Villkor";
+"Privacy Policy"="Integritetspolicy";
+// for Items:
+"Your grocery list is empty."="Din inköpslista är tom.";
+"Add an item by entering text into the input field above and then press the + button."="Lägg till en vara genom att mata in text i rutan ovan och sedan trycka på plusknappen.\n\nNär du befinner dig i din butik, klicka på den blå kundvagnen nedan.";
+
+// for Recipe Box:
+"Your Recipe Box is empty."="Din receptsamling är tom.";
+"Currently, recipes can only be added by logging into www.matlistan.se or using the Android app."="För närvarande går det bara att lägga till recept genom att logga in på www.matlistan.se eller använda Android-appen.";
+"recipes_loading" = "Hämtar recept…";
+
+// for Food Planning:
+"No recipes are planned."="Inga recept är planerade.";
+"Add a recipe to your plan by selecting it in your Recipe Box."="Lägg till ett recept till din matplanering genom att välja det i din receptsamling.";
+
+// Forget password
+"Forgot password" = "Glömt lösenordet?";
+"forgot password dialog title"="Skriv in din e-postadress.";
+"forgot password dialog message"="Ifall den finns registrerad, kommer vi att skicka ett mail med instruktioner om hur du återställer ditt lösenord.";
+"password reset successful"="Ett mail med vidare instruktioner har skickats till din e-postadress.";
+"ResetPasswordFailure"="Ett fel uppstod. Var god försök igen.";
+
+// Link Accounts
+"Linked Accounts"="Länkade konton";
+"Choose a friend"="Välj en vän";
+"Initiated"="Initierad";
+"Requested"="Begärd";
+"Confirmed"="Bekräftad";
+"no accounts found"="Du har inte länkat några konton ännu, klicka på '+' ikonen för att börja.";
+"link request received"="Du har fått en begäran om att länka ihop era konton. Dra åt vänster för att bekräfta.";
+"linking initiated"="Länkning initierad men ännu inte bekräftad av motparten. Dra åt vänster för att avbryta länkning.";
+"linking confirmed"="Era konton är länkade och alla listor delas mellan er. Dra åt vänster för att ta bort länkningen.";
+"confirm"="Bekräfta";
+"unlink"="Ta bort";
+"reject"="Neka";
+"Unlinking account"="Borttagning av länken kan orsaka viss förlust av data, t.ex. personlig sortering och varuhistorik.";
+"no friends on matlistan"="Din vänlista är tom. Antingen använder inga av dina FB-vänner Matlistan, eller också har du nekat appen tillgång till din vänlista.";
+"add email to link"="Vänligen skriv in e-postadressen för konton som du vill länka med.";
+"click to link email"="Klicka här för att länka konto via e-post";
+"click to link fb friend"="Klicka här för att länka konto med Facebook";
+"enter valid info"="Du måste ange giltig information att länka konton.";
+"linking requested"="Länkning har begärts. Det kommer att verkställas när det har bekräftas av";
+"register now"="Du är inte inloggad, vill du registrera / logga in med ett konto?";
+
+
+
+
+/*
+ Developer : Dimple
+ Date-Time : 21-9-2015
+ Description :Set Localization for Recipe screen's Action sheet */
+"Latest"="Nyaste";
+"Most cooked"="Mest tillagade";
+"At least cooked"="Minst tillagade";
+"Last prepared"="Senast tillagade";
+"Earliest cooked"="Tidigast tillagade";
+"The shortest cooking time"="Kortast tillagningstid";
+"Top Rated"="Högst betyg";
+"Please wait"="Var god vänta";
+"Or Continue with"="Eller fortsätt med";
+
+/*
+ Modified by : Yousuf
+ Modified Date : 23-09-2015
+ Descriptions : Localization for Edit Item
+ */
+"Matching item"="Matchande vara";
+"Item text"="Varutext";
+"after purchasing"="Efter inköp vill jag";
+"item is permanent"="Behålla varan";
+"item is not permanent"="Ta bort varan";
+
+/*
+ Modified by : Yousuf
+ Modified Date : 07-10-2015
+ Descriptions : Localization for Ads Removal
+ */
+"remove ads title"="Trött på reklamen?";
+"remove ads description"="Intäkter är nödvändiga för att täcka kostnaderna för drift och utveckling.\n\nMen vi låter dig välja själv.\n\nIstället för att tvingas titta på reklam kan du bidra genom en prenumeration. För bara några kronor per månad försvinner reklamen på samtliga enheter för dig och eventuella kopplade konton.\n\nDessutom får du fri tillgång till funktionen för att lägga till varor genom att tala in dem.";
+"account_upgrade_button"="Låter bra, vad kostar det?";
+
+
+//Dimple-16-10-2015
+"Try again" = "Försök igen";
+"Change login"="Ändra inloggning";
+
+/*
+ Modified by : Yousuf
+ Modified Date : 20-10-2015
+ Descriptions : Localization for DataCollectionSettings
+ */
+"pref_automatic_bugreports_title"="Skicka buggrapport vid fel";
+"pref_automatic_bugreports_summary"="Om ett fel inträffar, kan appen automatiskt skicka en felrapport till utvecklarna. Denna är vital för att felet ska kunna åtgärdas och innehåller bland annat information om användar-ID och den senaste aktiviteten i appen.";
+"pref_ga_enable_title"="Skicka användningsstatistik";
+"pref_ga_enable_summary"="För att kunna förbättra appen, samlar vi in statistik över hur den används. Informationen som samlas in är anonym och kan inte spåras till dig.";
+"pref_automatic_wifi_title"="Slå på wifi i butik";
+"pref_automatic_wifi_summary"="Matlistan lyssnar efter Wifi-nät för att orientera sig inomhus. Ingen uppkoppling eller datautbyte sker, men Wifi måste vara påslaget i telefonen för att Matlistan ska få information om näten. Wifi kopplas ner igen när besöket är över.";
+
+/*
+ Modified by : Yousuf
+ Modified Date : 20-10-2015
+ Descriptions : Localization for sync failure
+ */
+"unable to sync error"="Kunde inte synkronisera din data. Vänligen kontrollera din internet-uppkoppling.";
+
+//Dimple-4-11-2015
+//"Edit item"="Redigera varan";
+//"Item name"="Varån Nåmn";
+
+
+//Dimple - Login failed : Pop up
+"I forgot the password" = "Jag har glömt lösenordet";
+"I would like to create an account" = "Jag vill skapa ett konto";
+"LoginWithFacebook" = "Logga in med Facebook";
+
+"internet_connection_required"="Det gick inte att kommunicera med servern. Var vänlig kontrollera din uppkoppling till internet och försök igen.";
+
+"Notes"="Anteckningar";
+"Tips"="Tips";
+"Taken, item has a new location"="Tagen, varan har ny plats";
+"ads_removal_unavailable"="Denna funktion fungerar inte i beta-versionen.";
+"Google account" = "Google-konto";
+
+"No_Store_History"="Du har inga sparade butiker ännu. Tryck på sök för att hitta din butik.";
+"Back"="Tillbaka";
+
+//Dimple- 2-12-2015 // help screen
+"FAQ"="Vanliga frågor";
+"Rate this app"="Betygsätt appen";
+"Version history"="Versionshistorik";
+
+"Vist_store_alert_Title"="Vill du använda automatisk sortering?";
+"Vist_store_alert_msg1"="Du verkar befinna dig på ";
+"Vist_store_alert_msg2"=" Mer än hälften av dina varor kan sorteras automatiskt för denna butik. Vill du att din lista ska sorteras automatiskt nu?";
+
+"Random"="Slumpmässig";
+
+"occasion"="Tillfälle";
+"Comment"="Anteckningar";
+"Weekday,date or event"="Veckodag, datum eller händelse";
+
+
+//Dimple- 16-12-2015
+"Searching for matching items..."="Söker efter matchande varor...";
+"Found no matching items. Please try again."="Inga varor matchade det du sade. Var vänlig försök igen.";
+"Select from the search results"="Välj bland sökresultaten";
+"Speak again"="Tala igen";
+
+"You don't have any favorites yet."="Du har inga favoritvaror ännu.";
+"List" = "Lista";
+"Yield"="Mängd";
+
+//Dimple
+"Done"="Klar";
+"Cancel timer?"="Vill du avbryta timern?";
+"is done in"="är klart om";
+"Stop"="Stoppa";
+"Show recipe"="Visa recept";
+"Input must be numeric"="Inmatningen måste bestå av siffror";
+
+"add_store"="Lägg till en butik";
+"add_store_message"="Om du inte hittar din butik i vår databas, skriv in butikens namn och ort nedan.\n\nDen automatiska sorteringen kommer att aktiveras direkt efter ditt första besök och försöka lära sig butikens varuplacering.";
+
+"Go"="Gå";
+
+"Edit item"="Ändra vara";
+"Item name"="Varunamn";
+
+"hour"="h";
+"min"="min";
+"sec"="sek";
+
+"Other store"="Annan butik";
+
+//Raj- 9-2-2016
+"Login with Google"="Logga in med Google";
+
+"server_problem"="Det gick inte att kommunicera med servern. Kontrollera din internet-uppkoppling.";
+"Speech usage description"="Efter en inledande gratis provperiod, är denna funktion endast åtkomlig för betalande användare. Tyvärr måste vi göra så här eftersom det saknas en fritt tillgänglig tal-till-text-tjänst till iOS.";
+"Read_more"="Läs mer";
+
+"Move" ="Flytta";
+"Copy to" = "Kopiera";
+"Select all"="Select all";
+
+"Only Help"="Hjälp";
+
+//16-3-16
+"Select all"="Välj alla";
+"New recipe"="Nytt recept";
+"Edit recipe"="Ändra recept";
+"Title"="Titel";
+"Description"="Beskrivning";
+"Let others use this recipe"="Låt andra använda receptet";
+"Add Portions"="Portionstyp";
+"Cooking time(min)"="Tillagningstid (min)";
+"Advice"="Tips";
+"Your notes"="Dina anteckningar";
+"Stop timer"="Stoppa timer";
+"Add minute"="Minut";
+"Done in"="Klart om";
+"intro1"="Matlistan hjälper dig att planera och utföra matinköp.";
+"intro2"="Hantera inköpslistor, matplanering och recept. Vår mål: Världens bästa matinköpslista till mobilen!";
+"read_more"="Läs mer om tjänsten";
+"continue"="Fortsätt";
+"microphone_disabled"="Appen saknar rättighet att använda mikrofonen. För att kunna tala in varor, öppna Inställningar och tillåt Matlistan att använda mikrofonen.";
+
+"Select item list"="Välj inköpslista";
+"Manual sorting"="Ändra sortering";
+"EditInstructions"="Instruktioner";
+"A recipe title is required."="Receptet måste ha en titel.";
+"Tags_with_commas"="Etiketter (kommaseparerade)";
+"Nearest Stores"="Närmaste butiker";
+"AddNewItem"="Lägg till ny vara";
+"Select store"="Välj butik";
+"Search for store (name/address/postal code)"="Sök butik (namn/adress/postnr)";
+"No search results found"="Inga butiker hittades";
+"Searching"="Söker";
+"Could not fetch your location"="Kunde inte hämta din plats";
+"recipe_error"="Ett fel har inträffat. Receptet kunde inte sparas.";
+
+//============Watch==========
+
+"Fetching Data..." = "Hämtar data...";
+"Please wait, getting data from app" = "Kunde inte hämta data";//"Vänta, hämtar data från appen";
+"Alert" = "Larm";
+"Store List" = "Lista av butiker";
+"Sorted by:" = "Sorterad enligt: ";

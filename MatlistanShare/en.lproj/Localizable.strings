@@ -1,0 +1,15 @@
+/* 
+  ShareStrings.strings
+  Matlistan
+
+  Created by Artem Bakanov on 12/18/15.
+  Copyright © 2015 Consumiq AB. All rights reserved.
+*/
+
+"not_a_recipe"="Unfortunately, we could not find a recipe on that web page.";
+"web_page_error"="Error in web page format.";
+"login_error"="Couldn't login. Please, open Matlistan to proceed";
+"recipe_uploaded"="The recipe has successfully been saved in your Recipe Box.";
+"logging_in"="Logging in...";
+"uploading_recipe"="Uploading recipe...";
+"not_authorized"="You are not logged in. Please, open Matlistan and log in to proceed";

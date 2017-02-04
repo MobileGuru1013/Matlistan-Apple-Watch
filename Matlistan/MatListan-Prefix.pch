@@ -1,0 +1,163 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #import "MagicalRecord/MagicalRecord.h"
+    #import "SVProgressHUD.h"
+    #import "WatchConnectivityController.h"
+    #import "Utility.h"
+    #import "Crashlytics/Crashlytics.h"
+    #import "Constant.h"
+#endif
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+#define IS_IPHONE (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+#define SCREEN_HEIGHT         [[UIScreen mainScreen] bounds].size.height
+#define SCREEN_WIDTH        [[UIScreen mainScreen] bounds].size.width
+#define CELL_BG_COLOR        [UIColor colorWithRed:249.0/255.0 green:249.0/255.0 blue:251.0/255.0 alpha:1.0]
+#define HIGHLIGHTED_COLOR  [UIColor colorWithRed:93.0/255 green:187.0/255 blue:85.0/255 alpha:1]
+
+#define lightgreenColor        [UIColor colorWithRed:236.0/255.0 green:251.0/255.0 blue:232.0/255.0 alpha:1.0]
+#define lightblueColor        [UIColor colorWithRed:227.0/255.0 green:241.0/255.0 blue:246.0/255.0 alpha:1.0]
+#define DROPDOWN_BG_COLOR  [UIColor colorWithRed:245.0/255 green:245.0/255 blue:245.0/255 alpha:1]
+#define DARK_GREEN_COLOR  [UIColor colorWithRed:59.0/255 green:165.0/255 blue:42.0/255 alpha:1]
+#define LIGHT_BROWN_COLOR  [UIColor colorWithRed:42.0/255 green:42.0/255 blue:42.0/255 alpha:1]
+
+//Dimple 19-10-2015
+#define IS_OS_8_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define IS_OS_9_OR_LATER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
+
+//Dimple-26-10-2015
+#define font_name  @"Thonburi"
+#define Bold_font_name  @"Thonburi-Bold"
+#define color_name  [UIColor colorWithRed:85/255.0 green:85/255.0 blue:85/255.0 alpha:1]
+
+
+//Dimple font //29-10-2015
+
+//********Common Font for textfield & button & header *********//
+#define header_font_size ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ? (IS_OS_8_OR_LATER? 17.0 :21.0):(IS_OS_8_OR_LATER? 17.0 :21.0))
+
+#define textField_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 18.0 :21.0))
+
+#define button_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 17.0 :20.0):(IS_OS_8_OR_LATER? 18.0 :21.0))
+
+#define table_header_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 17.0 :20.0):(IS_OS_8_OR_LATER? 25.0 :30.0))
+
+#define search_placeholder_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 14.0 :17.0):(IS_OS_8_OR_LATER? 18.0 :21.0))
+
+#define search_cancel_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :17.0):(IS_OS_8_OR_LATER? 16.0 :18.0))
+
+#define pickerview_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 20.0 :23.0):(IS_OS_8_OR_LATER? 23.0 :26.0))
+
+//********* Login Screen **********
+#define login_continue_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 12.0 :14.0):(IS_OS_8_OR_LATER? 14.0 :17.0))
+
+#define login_Regi_forgotPass_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 18.0 :21.0))
+
+#define login_facebook_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 16.0 :19.0):(IS_OS_8_OR_LATER? 18.0 :21.0))
+
+
+//********* Plan Food Screen **********//
+#define planfood_title_label ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 18.0 :23.0))
+
+#define planfood_detail_label ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 12.0 :15.0):(IS_OS_8_OR_LATER? 16.0 :19.0))
+
+#define planfood_expanded_label ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 14.0 :16.0):(IS_OS_8_OR_LATER? 15.0 :18.0))
+
+#define user_hint_label ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 18.0 :23.0))
+
+//********* Recipe Screen **********//
+
+#define recipe_source_time_label ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 13.0 :16.0):(IS_OS_8_OR_LATER? 17.0 :20.0))
+
+//********** Sliding Menu **************//
+
+#define sliding_menu_label ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 25.0 :30.0))
+
+//********** Setting Screen **************//
+
+#define setting_title_label ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 16.0 :19.0):(IS_OS_8_OR_LATER? 21.0 :25.0))
+#define setting_details_label ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 13.0 :15.0):(IS_OS_8_OR_LATER? 16.0 :19.0))
+
+
+//********** Help Screen **************//
+
+#define help_button ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 19.0 :22.0))
+
+//********** Item Screen **************//
+
+#define item_font_size1 ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 13.0 :15.0):(IS_OS_8_OR_LATER? 19.0 :23.0))
+#define item_font_size2 ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :17.0):(IS_OS_8_OR_LATER? 23.0 :27.0))
+#define item_textField_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 14.0 :16.0):(IS_OS_8_OR_LATER? 18.0 :21.0))
+
+
+//********** Sort tableview controller Screen **************//
+
+#define sort_Label_font_size ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 14.0 :17.0):(IS_OS_8_OR_LATER? 20.0 :24.0))
+
+//********** In the Store Screen **************//
+#define inthestore_font_size1 ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 13.0 :16.0):(IS_OS_8_OR_LATER? 19.0 :23.0))
+
+
+#define inthestore_configure_font_size1 ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 13.0 :16.0):(IS_OS_8_OR_LATER? 20.0 :24.0))
+#define inthestore_configure_font_size2 ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 23.0 :27.0))
+
+#define inthestore_makechnages_font_size1 ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 13.0 :16.0):(IS_OS_8_OR_LATER? 18.0 :22.0))
+
+#define inthestore_makechnages_font_size2 ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 23.0 :27.0))
+//********** In the list configuratin Screen **************//
+#define list_configuration_title_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 17.0 :20.0):(IS_OS_8_OR_LATER? 25.0 :30.0))
+
+
+//********** Chnage textview controller Screen **************//
+#define segment_title_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 14.0 :17.0):(IS_OS_8_OR_LATER? 18.0 :21.0))
+
+//********** Ads Removal  Screen **************//
+#define adsRemove_title_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 18.0 :21.0):(IS_OS_8_OR_LATER? 21.0 :25.0))
+#define adsRemove_desc_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 14.0 :17.0):(IS_OS_8_OR_LATER? 17.0 :21.0))
+
+
+//**********  After Cooked Screen **************//
+#define after_cooked_lbl_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 16.0 :19.0):(IS_OS_8_OR_LATER? 20.0 :25.0))
+
+//**********  Friends view Screen **************//
+#define friends_title_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 15.0 :18.0):(IS_OS_8_OR_LATER? 17.0 :21.0))
+
+//**********  intro Screen view Screen **************//
+#define  intro_help_grocery_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 16.0 :19.0):(IS_OS_8_OR_LATER? 23.0 :27.0))
+#define  intro_testlist_learnmore_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 14.0 :17.0):(IS_OS_8_OR_LATER? 18.0 :22.0))
+
+//**********  Shops tableview Screen **************//
+#define  shops_title_font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 16.0 :19.0):(IS_OS_8_OR_LATER? 23.0 :27.0))
+#define  shops_detail__font ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ?(IS_OS_8_OR_LATER? 12.0 :15.0):(IS_OS_8_OR_LATER? 17.0 :21.0))
+
+
+
+
+//Dimple- 2-09-2015 //Check iphone
+
+#define iphone4 (([[UIScreen mainScreen] bounds].size.height == 480 && [[UIScreen mainScreen] bounds].size.width == 320) || ([[UIScreen mainScreen] bounds].size.width == 480 && [[UIScreen mainScreen] bounds].size.height == 320))
+#define iphone5 (([[UIScreen mainScreen] bounds].size.height == 568 && [[UIScreen mainScreen] bounds].size.width == 320) || ([[UIScreen mainScreen] bounds].size.height == 320 && [[UIScreen mainScreen] bounds].size.width == 568))
+#define iphone6 (([[UIScreen mainScreen] bounds].size.height == 667 && [[UIScreen mainScreen] bounds].size.width == 375) || ([[UIScreen mainScreen] bounds].size.height == 375 && [[UIScreen mainScreen] bounds].size.width == 667))
+#define iphone6Plus (([[UIScreen mainScreen] bounds].size.height == 736 && [[UIScreen mainScreen] bounds].size.width == 414) || ([[UIScreen mainScreen] bounds].size.height == 414 && [[UIScreen mainScreen] bounds].size.height == 736))
+
+#define IS_IPAD_PRO (([UIScreen mainScreen].bounds.size.height == 1366 && [UIScreen mainScreen].bounds.size.width == 1024) || ([UIScreen mainScreen].bounds.size.height == 1024 && [UIScreen mainScreen].bounds.size.width == 1366))
+

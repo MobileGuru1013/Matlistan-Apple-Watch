@@ -1,0 +1,113 @@
+{"advice":"För alla: noga ingrediensförteckningen på korven.\n glutenfri: använd glutenfri pasta.laktosfri",
+    "cookCount":1,
+    "createdAt":"2014-05-08T15:14:46.313Z",
+    "description":"Falukorvsf paprika och majs blir",
+    "id":65536,
+    "imageUrls":
+    {
+        "imageSize":"Original",
+        "url":"http://sss.se"
+    },
+    "ingredients":"550 g falukorv",
+    "ingredientsMarkup":"550 g <ki>falukorv</ki>\n1/2 <ki>purjolök</ki>\n1 röd <ki>paprika</ki>\n1 tsk <ki>olivolja</ki>n1 tsk <ki>paprikapulver</ki>\n340 g <ki>majs</ki>\n<ki>salt</ki> och peppar",
+    "instructions":"1. 2.",
+    "instructionsMarkup":"markup",
+    "isPublic":1,
+    "lastCookedAt":"2014-07-14T20:40:55.47Z",
+    "lastViewedAt":"2014-05-08T15:14:48.22Z",
+    "originalCookTime":40,
+    "originalCookTimeSpanLower":20,
+    "parsedIngredients":    {
+        "list":        [
+                        {
+                        "isCategory":0,
+                        "isProbablyNeeded":1,
+                        "knownItemText":"falukorv",
+                        "quantityText":550,
+                        "sortableText":"falukorv",
+                        "text":"550 g falukorv",
+                        "unitText":"g"
+                        },
+                        {
+                        "isCategory":0,
+                        "isProbablyNeeded":1,
+                        "knownItemText":"purjolök",
+                        "quantityText":"1/2",
+                        "sortableText":"purjolök",
+                        "text":"1/2 purjol6k"
+                        },
+                        {
+                        "isCategory":0,
+                        "isProbablyNeeded":1,
+                        "knownItemText":"paprika",
+                        "quantityText":1,
+                        "sortableText":"paprika",
+                        "text":"1 röd paprika"
+                        },
+                        
+                        
+                        {
+                        "isCategory":0,
+                        "isProbablyNeeded":1,
+                        "knownItemText":"pasta",
+                        "quantityText":4,
+                        "sortableText":"pasta  spagetti",
+                        "text":"4 port pasta,spagetti",
+                        "unitText":"port"
+                        },
+                        {
+                        "isCategory":0,
+                        "isProbablyNeeded":1,
+                        "knownItemText":"gräddfil",
+                        "quantityText":"1 1/2",
+                        "sortableText":"gräddfil",
+                        "text":"1 1/2 dl gräddfil",
+                        "unitText":"dl"
+                        },
+                        {
+                        "isCategory":0,
+                        "isProbablyNeeded":1,
+                        "knownItemText":"chiliss",
+                        "quantityText":"1/2",
+                        "sortableText":"chilis eller ketchup",
+                        "text":"1/2 dl chiliseller ketchup",
+                        "unitText":"dl"
+                        },
+                        {
+                        "isCategory":0,
+                        "isProbablyNeeded":0,
+                        "knownItemText":"salt",
+                        "sortableText":"salt och peppar",
+                        "text":"salt och peppar"
+                        }
+                        ]
+    },
+    "portionType":"portioner",
+    "portions":4,
+    "rating":3,
+    "source":    {
+        "text":"ica.se",
+        "url":"http://www.ica.se/recept/falukorvsfras-med-pasta-716655/"
+    },
+    "tags":    [
+                {
+                "text":"husmanskost och klassiker"
+                },
+                {
+                "text":"huvudrätt"
+                },
+                {
+                "text":"koka"
+                },
+                {
+                "text":"korv"
+                },
+                {
+                "text":"lunch"
+                },
+                {
+                "text":"steka"
+                }
+                ],
+    "title":"Falukorvsfrö med pasta",
+    "updatedAt":"2014-07-14T20:40:55.47Z"}

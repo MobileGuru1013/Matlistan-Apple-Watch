@@ -1,0 +1,56 @@
+{
+    "list" :[
+             {
+             "id": 883,
+             "ingredients": "Dressing:,1/2 vitl U00f6ksklyfta,5 sardellfil U00e9er,1  U00e4ggula,1 dl riven parmesanost,1 1/2 tsk f U00e4rskpressad citronjuice,ca 3/4 dl neutral olja,1 krm salt,Sallad:,k U00f6tt fr U00e5n kycklingklubba,romansallad,knaperstekt bacon,hyvlad parmesanost,br U00f6dkrutonger eller vitl U00f6ksbr U00f6d",
+             "ingredientsMarkup": "<h>Dressing:</h>n1/2 <ki>vitl U00f6ksklyfta</ki>n5 <ki>sardellfil U00e9er</ki>n1 <ki> U00e4ggula</ki>",
+             "isPurchased": 0,
+             "notes": "note",
+             "occasion": "dinner",
+             "recipeId": 1237
+             },
+             {
+             "id": 884,
+             "ingredients": "4 portioner bulgur [eller annat gryn],2 r U00f6da paprikor,1 gr U00f6n zucchini,1 r U00f6dl U00f6k,2 msk pesto,salt och peppar,1 tsk rosmarin,1 tsk timjan,240 g skivad r U00f6kt skinka",
+             "ingredientsMarkup": "4 portioner <ki>bulgur</ki> [eller annat gryn]n2 r U00f6da <ki>paprikor</ki>",
+             "isPurchased": 0,
+             "notes": "",
+             "occasion": "",
+             "portions": 4,
+             "portions2": 4,
+             "recipeId": 1238
+             },
+             {
+             "id": 889,
+             "ingredients": "1 paket bacon [ U00e0 140 g],1 salladshuvud,2 tomater,1/2 r U00f6dl U00f6k,1 stor eller dubbelt s U00e5 m U00e5nga mindre avokador,1 tsk f U00e4rskpressad citronjuice,1 krm salt,1 krm svartpeppar,ev tabasco",
+             "ingredientsMarkup": "1 paket <ki>bacon</ki>",
+             "isPurchased": 0,
+             "notes": "",
+             "occasion": "",
+             "portions": 4,
+             "portions2": 4,
+             "recipeId": 1241
+             },
+             {
+             "id": 882,
+             "ingredients": "1 silverl U00f6k,2 avokador,1 gul paprika,1 medelstor isbergssallad,2 dl ajvar relish,1 dl turkisk yoghurt,salt och peppar,1 citron",
+             "ingredientsMarkup": "1 <ki>silverl U00f6k</ki>n2 <ki>avokador</ki>",
+             "isPurchased": 1,
+             "notes": "",
+             "occasion": "",
+             "portions": 4,
+             "portions2": 4,
+             "recipeId": 1236
+             },
+             {
+             "id": 888,
+             "ingredients": "6 pitabr U00f6d,1 r U00f6dl U00f6k,1 vitl U00f6ksklyfta,ca 300 g vitk U00e5l,ca 100 g champinjoner,1 gr U00f6n paprika,1 msk olja,ca 400 g n U00f6tf U00e4rs,1 k U00f6ttbuljongt U00e4rning,salt och peppar,1 msk kinesisk soja,1 dl vatten,1 dl sweet chili",
+             "ingredientsMarkup": "6 <ki>pitabr U00f6d</ki>n1 <ki>r U00f6dl U00f6k</ki>",
+             "isPurchased": 1,
+             "notes": "",
+             "occasion": "",
+             "portions": 4,
+             "portions2": 4,
+             "recipeId": 1240
+             }
+             ]}

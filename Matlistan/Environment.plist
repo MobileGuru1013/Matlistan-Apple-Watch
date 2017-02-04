@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Debug</key>
+	<dict>
+		<key>GOOGLE_SERVER_CLIENT_ID</key>
+		<string>928573490278-k1g4796fufggv6aedmha1is3q1b2i99b.apps.googleusercontent.com</string>
+		<key>GOOGLE_CLIENT_ID</key>
+		<string>928573490278-a5q17miucjbi91e3p738e99d52c6khbu.apps.googleusercontent.com</string>
+		<key>UrlScheme</key>
+		<string>matlistanTest</string>
+		<key>FacebookDisplayName</key>
+		<string>Matlistan.se - test</string>
+		<key>FacebookAppID</key>
+		<string>643062699127404</string>
+		<key>BaseUrl</key>
+		<string>http://api.test.matlistan.se</string>
+	</dict>
+	<key>MatlistanTest</key>
+	<dict>
+		<key>GOOGLE_CLIENT_ID</key>
+		<string>928573490278-a5q17miucjbi91e3p738e99d52c6khbu.apps.googleusercontent.com</string>
+		<key>GOOGLE_SERVER_CLIENT_ID</key>
+		<string>928573490278-k1g4796fufggv6aedmha1is3q1b2i99b.apps.googleusercontent.com</string>
+		<key>UrlScheme</key>
+		<string>matlistanTest</string>
+		<key>FacebookAppID</key>
+		<string>643062699127404</string>
+		<key>FacebookDisplayName</key>
+		<string>Matlistan.se - test</string>
+		<key>BaseUrl</key>
+		<string>http://api.test.matlistan.se</string>
+	</dict>
+	<key>Release</key>
+	<dict>
+		<key>GOOGLE_CLIENT_ID</key>
+		<string>928573490278-r0e80kg0g9tcj5ubp7r5gs3c6lt2rrrt.apps.googleusercontent.com</string>
+		<key>GOOGLE_SERVER_CLIENT_ID</key>
+		<string>928573490278-q39ki0bms1aql1e43695fubl1bmpkm4n.apps.googleusercontent.com</string>
+		<key>UrlScheme</key>
+		<string>matlistan</string>
+		<key>FacebookDisplayName</key>
+		<string>Matlistan.se</string>
+		<key>FacebookAppID</key>
+		<string>160944750672537</string>
+		<key>BaseUrl</key>
+		<string>https://api2.matlistan.se</string>
+	</dict>
+	<key>Matlistan</key>
+	<dict>
+		<key>GOOGLE_CLIENT_ID</key>
+		<string>928573490278-r0e80kg0g9tcj5ubp7r5gs3c6lt2rrrt.apps.googleusercontent.com</string>
+		<key>GOOGLE_SERVER_CLIENT_ID</key>
+		<string>928573490278-q39ki0bms1aql1e43695fubl1bmpkm4n.apps.googleusercontent.com</string>
+		<key>UrlScheme</key>
+		<string>matlistan</string>
+		<key>FacebookAppID</key>
+		<string>160944750672537</string>
+		<key>FacebookDisplayName</key>
+		<string>Matlistan.se</string>
+		<key>BaseUrl</key>
+		<string>https://api2.matlistan.se</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,17 @@
+{ "list":     [
+               {
+               "id": 1638,
+               "isDefault": 1,
+               "manualSortOrderIsGrouped": 0,
+               "name": "Min inköpslista",
+               "sortByStoreId": 2106,
+               "sortOrder": "Store"
+               },
+               {
+               "id": 1783,
+               "isDefault": 0,
+               "manualSortOrderIsGrouped": 0,
+               "name": "lista 3",
+               "sortOrder": "Date"
+               }
+               ]}

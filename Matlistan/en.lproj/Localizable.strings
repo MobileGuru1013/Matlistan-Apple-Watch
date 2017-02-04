@@ -1,0 +1,354 @@
+/* 
+  Localizable.strings
+  MatListan
+*/
+"Rate App Title"="Rate Matlistan";
+"Rate App message"="Thank you for using Matlistan, kindly take a moment to rate the latest version of our app in the App Store. You support is highly appreciated.";
+"Rate It Now"="Rate it now";
+"Remind Me Later"="Remind me later";
+"No, Thanks" = "No, thanks";
+"Ok" = "Ok";
+"No internet" = "The Internet connection appears to be offline.";
+"Enter credentials" = "Enter credentials";
+"Login Failed" = "Login failed";
+"Enter new password" = "Enter new password";
+"Continue without synchronization" = "Continue without synchronization";
+"Retry" = "Retry";
+"New Password" = "New Password";
+"Login" = "Login";
+"forgot"="forgot";
+"Log in"="Log in";
+"Log out"="Log out";
+"Sign in" = "Sign in";
+"Email" = "Email";
+"Password" = "Password";
+"Login with Facebook" = "Login with Facebook";
+"Facebook account" = "Facebook account";
+"Register later" = "Register later";
+"Fail to log in"="Fail to log in";
+"Wrong email or password"="Invalid email or password";
+"Create account" = "Register";
+"Register" = "Register";
+"No account?" = "No account?";
+
+"Password" = "Password";
+"Add" = "Add";
+"Save" = "Save";
+"Cancel" = "Cancel";
+"Settings"="Settings";
+"Close"="Close";
+"Missing information"="Missing information";
+"Error"="Error";
+"FailedConnection"="Your internet connection is offline. Please try later.";
+"Add new item"="Add new item";
+"Latest Top"="Latest";
+"Alphabetically"="Alphabetically";
+"By Category"="By category";
+"Sort By Store"="Sort by store...";
+"Choose sorting order"="Select sorting order";
+"In the store"="In Store";
+"Taken"="Taken";
+"Caught at wrong place"="Taken, but not here";
+"Out"="Out of stock";
+"Not in the collection"="Not sold here";
+"Shop next time"="Take at next visit";
+"Remove"="Remove";
+"Change"="Edit";
+"Bought"="Purchased";
+"Plan"="Plan";
+"Delete"="Delete";
+"More"="More";
+"Cooked"="Cooked";
+"Recipes to shop"="Recipes to shop for";
+"Recipes to cook"="Recipes to cook";
+"Source"="Source";
+"Tags"="Tags";
+"Common Questions"="FAQ";
+"Contact Us"="Contact us";
+"Rate the App"="Rate the app";
+"Help"="Help/About";
+"Recipe cannot be deleted"="The recipe could not be deleted, probably because it is among your planned recipes";
+"Do you want to remove the recipe?"="Do you want to remove the recipe?";
+"Do you want to remove the Plan recipe?"="Would you like to remove the recipe from your planning?";
+"Do you want to remove the item?"="Do you want to remove the item?";
+"Are you sure?"="Are you sure?";
+"Info"="Information";
+"Data Collection"="Data collection";
+"Link account"="Link accounts";
+"Change account"="Switch accounts";
+"Vibrate" = "Vibrate when taking item";
+"Vibrate on pick/drop item" = "Vibrate when taking item";
+"Latest first"="Latest";
+"Alphabetically"="Alphabetically";
+"By category"="By category";
+"Own sorting"="My sorting";
+"Another store"="Another store...";
+"Unsorted items"="Unsorted items";
+"Sorted items"="Sorted items";
+"Sorting"="Sorting";
+"Sort items for"="Sorting items for";
+"Removed Items"="Removed Items";
+"LittleDataInfo"="The app has not enough data to sort your items. Please visit the store a couple of times to allow the app to learn the store layout.";
+"SortingRequestFailure"="The sorting order could not be determined\n due to communication failure";
+"Confirm password"="Confirm password";
+"PasswordNotMatch"="Your inputs of password don't match.";
+"EmailError"="Your email must be valid";
+"PasswordEmptyError"="Password cannot be empty";
+"RegisterError"="Fail to register.";
+"Do you want to remove the list?"="Do you want to remove the list?";
+"Loading"="Loading data";
+"Your recipe collection is empty."="Your recipe collection is empty.";
+"No recipes are planned."="No recipes are planned.";
+"portions"="portions";
+"portion"="portion";
+"Instruction"="Instruction";
+"Ingredients"="Ingredients";
+"Shopping List"="Shopping List";
+"Planned Recipes"="Planned Recipes";
+"Recipes"="Recipe Box";
+"Settings"="Settings";
+"Help/About"="Help/About";
+"Remove Ads"="Remove Ads";
+"LATEST VIEWED RECIPES"="LATEST VIEWED RECIPES";
+"You are not logged in"="You are not logged in";
+"You have logged in as"="You have logged in as";
+"Login to get access to all the functions of menus is offering" = "Login to be able to sync data with all your devices.";
+"Are you sure you want to logout?"="Are you sure you want to logout?";
+"If an error happens, the app can report the error to the developer."="If an error happens, the app can report the error to the developers.";
+"Link you account together with another account to see the same lists"="Link your account with another account to see the same lists.";
+"Latest first"="Latest";
+"Alphabetically"="Alphabetically";
+"By category"="By category";
+"Own sorting"="My sorting";
+"Another shop"="Other store...";
+"Terms of Service" = "Terms of Service";
+"Privacy Policy"="Privacy Policy";
+
+// for Items:
+"Your grocery list is empty."="Your grocery list is empty.";
+"Add an item by entering text into the input field above and then press the + button."="Add an item by entering text into the input field above and press the + button.\n\nWhen visiting a store, tap on the blue shopping cart below.";
+
+// for Recipe Box:
+"Your Recipe Box is empty."="Your Recipe Box is empty.";
+"Currently, recipes can only be added by logging into www.matlistan.se or using the Android app."="Add a recipe by browsing to a Swedish recipe and click Share in the browser to send the recipe link to Matlistan.";
+"recipes_loading" = "Fetching recipes...";
+
+// for Food Planning:
+"No recipes are planned."="No recipes are planned.";
+"Add a recipe to your plan by selecting it in your Recipe Box."="Add a recipe to your plan by selecting it in your Recipe Box.";
+
+// Forget password
+"Forgot password" = "Forgot password?";
+"forgot password dialog title"="Please enter your e-mail address.";
+"forgot password dialog message"="If it is registered, we will send an e-mail with instructions on how to reset your password.";
+"password reset successful"="An email with further instructions has been sent to your email address.";
+"ResetPasswordFailure"="An error occurred. Please try again.";
+
+// Link Accounts
+"Linked Accounts"="Linked Accounts";
+"Choose a friend"="Choose a friend";
+"Initiated"="Initiated";
+"Requested"="Requested";
+"Confirmed"="Confirmed";
+"no accounts found"="Your account has not been linked to any other yet, click '+' icon to begin.";
+"link request received"="You have received a link request. Swipe left to confirm.";
+"linking initiated"="Linking initiated but not confirmed by the other part yet. Swipe left to cancel linking.";
+"linking confirmed"="Your accounts are now linked and all your lists are shared. Swipe left to delete link.";
+"confirm"="Confirm";
+"unlink"="Unlink";
+"reject"="Reject";
+"Unlinking account"="Unlinking can cause some data loss, like personal sorting and item history.";
+"no friends on matlistan"="Your friend list is empty. Either none of your Facebook friends are using Matlistan, or you have denied the permission request for Matlistan to retrieve your friend list.";
+"add email to link"="Please enter email address for the account you would like to link with.";
+"click to link email"="Click here to link account using email";
+"click to link fb friend"="Click here to link account using Facebook";
+"enter valid info"="You need to enter valid information to link accounts.";
+"linking requested"="Linking requested. It will be effectuated once confirmed by";
+"register now"="You are not logged in, do you want to register/login an account?";
+
+/*
+ Developer : Dimple
+ Date-Time : 21-9-2015
+ Description : Set Localization for Recipe screen's Action sheet */
+"Latest"="Latest";
+"Most cooked"="Most cooked";
+"At least cooked"="Least cooked";
+"Last prepared"="Last cooked";
+"Earliest cooked"="Earliest cooked";
+"The shortest cooking time"="Shortest cooking time";
+"Top Rated"="Top rating";
+"Please wait"="Please wait";
+"Or Continue with"="Or Continue with";
+
+/*
+ Modified by : Yousuf
+ Modified Date : 23-09-2015
+ Descriptions : Localization for Edit Item
+ */
+"Matching item"="Matching item";
+"Item text"="Item text";
+"after purchasing"="After taking in store, I'd like to";
+"item is permanent"="Keep item in list";
+"item is not permanent"="Remove item";
+
+/*
+ Modified by : Yousuf
+ Modified Date : 07-10-2015
+ Descriptions : Localization for Ads Removal
+ */
+"remove ads title"="Tired of ads?";
+"remove ads description"="Revenues are necessary to maintain and improve this service.\n\nBut we leave it up to you to decide.\n\nInstead of looking at ads you may contribute by signing up for our premium service. This will remove ads from all devices (for linked accounts also) for a whole year.\n\nAlso, you get full access to the functionality for adding items via speech.";
+"account_upgrade_button"="Sounds great, how much is it?";
+
+//Dimple-16-10-2015
+"Try again"="Try again";
+"Change login"="Change login";
+
+/*
+ Modified by : Yousuf
+ Modified Date : 20-10-2015
+ Descriptions : Localization for DataCollectionSettings
+ */
+"pref_automatic_bugreports_title"="Send bug report upon errors";
+"pref_automatic_bugreports_summary"="If an error occurs, the app can automatically send a bug report to the developers. This is essential for fixing the bug. The report contains information such as user ID and latest activity.";
+"pref_ga_enable_title"="Send user statistics";
+"pref_ga_enable_summary"="To be able to improve the app, we collect user statistics. The collected information is completely anonomyous and cannot be traced to you.";
+"pref_automatic_wifi_title"="Enable Wi-Fi when in a store";
+"pref_automatic_wifi_summary"="Matlistan scans for Wi-Fi access points for indoor orientation. No connection or data transfer take place, but the Wi-Fi needs to be enabled for positioning. The Wi-Fi is automatically disabled when leaving Store Mode.";
+
+/*
+ Modified by : Yousuf
+ Modified Date : 20-10-2015
+ Descriptions : Localization for sync failure
+ */
+"unable to sync error"="Unable to sync your data. Check your network connection.";
+
+//Dimple- 4-11-2015
+//"Edit item"="Edit item";
+//"Item name"="Item name";
+
+
+//Dimple - Login failed : Pop up
+"I forgot the password" = "I forgot my password";
+"I would like to create an account" = "I would like to create an account";
+"LoginWithFacebook" = "Login with Facebook";
+
+"internet_connection_required"="There was a problem communicating with the server. Please verify your internet connection and try again.";
+
+"Notes"="Your Notes";
+"Tips"="Tips";
+"Taken, item has a new location"="Taken, item has a new location";
+"ads_removal_unavailable"="This feature has been disabled in the beta version.";
+"Google account" = "Google account";
+
+"No_Store_History"="You have no saved stores yet. Please use the search to find your store.";
+"Back"="Back";
+
+//Dimple- 2-12-2015 // help screen
+"FAQ"="FAQ";
+"Rate this app"="Rate this app";
+"Version history"="Version history";
+
+"Vist_store_alert_Title"="Sort your list automatically?";
+"Vist_store_alert_msg1"="You seem to be visiting ";
+"Vist_store_alert_msg2"=" Most of your list can be automatically sorted according to the layout of this store. Would you like your list to be sorted now?";
+
+"Random"="Random";
+
+"occasion"="Occasion";
+"Comment"="Note";
+"Weekday,date or event"="Weekday, date or event";
+
+//Dimple- 16-12-2015
+
+"Searching for matching items..."="Searching for matching items...";
+"Found no matching items. Please try again."="Found no matching items. Please try again.";
+"Select from the search results"="Select from search results";
+"Speak again"="Speak again";
+
+"You don't have any favorites yet."="You don't have any favorites yet.";
+"List" = "List";
+"Yield"="Yield";
+
+///Dimple
+"Done"="Done";
+"Cancel timer?"="Cancel timer?";
+"is done in"="is done in";
+"Stop"="Stop";
+"Show recipe"="Show recipe";
+"Input must be numeric"="Input must be numeric";
+
+"add_store"="Add a store";
+"add_store_message"="If you cannot find your grocery store in our database, please enter its name and city in the text box below.\n\nThe automatic sorting will be activated after your first visit to the store and try to learn the layout of the store.";
+
+"Go"="Go";
+
+"Edit item"="Edit item";
+"Item name"="Item name";
+
+"hour"="hour";
+"min"="min";
+"sec"="sec";
+
+"Other store"="Other store";
+
+//Raj- 9-2-2016
+"Login with Google"="Login with Google";
+
+"server_problem"="There was a problem communicating with the server. Please check your internet connection.";
+"Speech usage description"="After a free trial period, this function is accessible only by premium users. We're sorry, but the reason is the lack of free speech-to-text service for iOS.";
+"Read_more"="Read more";
+"original"="original";
+
+"Move" ="Move";
+"Copy to" = "Copy to";
+"Select all"="Select all";
+
+"Only Help"="Help";
+
+"Select all"="Select all";
+"New recipe"="New recipe";
+"Edit recipe"="Edit recipe";
+"Title"="Title";
+"Description"="Description";
+"Let others use this recipe"="Let others use this recipe";
+"Add Portions"="Portions";
+"Cooking time(min)"="Cooking time(min)";
+"Advice"="Advice";
+"Your notes"="Your notes";
+"Stop timer"="Stop timer";
+"Add minute"="Add minute";
+"Done in"="Done in";
+"intro1"="Matlistan helps you plan and execute grocery shopping.";
+"intro2"="Manage your grocery list, food planning and recipes with Matlistan. Our goal: the world's best grocery shopping list service for mobile devices!";
+"read_more"="Read more";
+"continue"="Continue";
+"microphone_disabled"="The app does not have a right to use the microphone. To use speech input, please open Settings and let Matlistan use the microphone.";
+
+"Select item list"="Select item list";
+"Manual sorting"="Reorder items";
+"EditInstructions"="Instructions";
+"A recipe title is required."="A recipe title is required.";\
+"Tags_with_commas"="Tags (comma separated)";
+"Nearest Stores"="Closest stores";
+"AddNewItem"="Add new item";
+"Select store"="Select store";
+"Search for store (name/address/postal code)"="Search for store (name/address/postal code)";
+"No search results found"="No search results found";
+"Searching"="Searching";
+"Could not fetch your location"="Could not fetch your location";
+
+"recipe_error"="An error occurred. The recipe could not be saved.";
+
+
+//============Watch==========
+
+"Fetching Data..." = "Fetching Data...";
+"Please wait, getting data from app" = "Couldn't fetch data";
+"Alert" = "Alert";
+"Store List" = "Store List";
+"Sorted by:" = "Sorted by: ";
+"Added" = "Tillagt";
+"To" = "Till";
+
+

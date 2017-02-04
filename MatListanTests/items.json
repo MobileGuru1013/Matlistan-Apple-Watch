@@ -1,0 +1,48 @@
+{
+    "list" :     [
+                  {
+                  "addedAt" : "2014-05-05T16:20:23.03Z",
+                  "groupedSortIndex" : 33,
+                  "groupedText" : "babyspenat",
+                  "id" : 94252,
+                  "isChecked" : 1,
+                  "isDefaultMatch" : 0,
+                  "isPermanent" : 0,
+                  "isPossibleMatch" : 0,
+                  "isTaken" : 0,
+                  "knownItemText" : "babyspenat",
+                  "listId" : 1638,
+                  "matchingItemText" : "babyspenat, färsk",
+                  "mayBeDefaultMatch" : 0,
+                  "placeCategory" : "färska grönsaker",
+                  "possibleMatches" :[
+                                                   "champinjoner, fryst",
+                                                   "champinjoner, färsk",
+                                                   "champinjoner, konserv",
+                                                   "champinjoner, torkad"
+                  ],
+                  "searchedText" : "babyspenat",
+                  "text" : "70 g babyspenat"
+                  },
+                  {
+                  "addedAt" : "2014-05-08T15:16:02Z",
+                  "groupedSortIndex" : 26,
+                  "groupedText" : "babyspenat",
+                  "id" : 95182,
+                  "isChecked" : 0,
+                  "isDefaultMatch" : 0,
+                  "isPermanent" : 0,
+                  "isPossibleMatch" : 0,
+                  "isTaken" : 0,
+                  "knownItemText" : "babyspenat",
+                  "listId" : 1638,
+                  "matchingItemText" : "babyspenat, färsk",
+                  "mayBeDefaultMatch" : 0,
+                  "placeCategory" : "färska grönsaker",
+                  "possibleMatches" :             [
+                  ],
+                  "searchedText" : "babyspenat",
+                  "text" : "1 p babyspenat ( 65 g)"
+                  }
+                  ]
+}

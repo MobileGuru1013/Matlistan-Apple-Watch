@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="Version_VC">
+            <connections>
+                <outlet property="version_web" destination="2Cd-8p-DVW" id="vEo-L2-1E7"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rLn-7J-P9X"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="650" height="815"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Cd-8p-DVW">
+                    <rect key="frame" x="0.0" y="64" width="650" height="686"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="ySd-Vp-Yje"/>
+                    </connections>
+                </webView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tgT-ix-Xqj">
+                    <rect key="frame" x="0.0" y="0.0" width="650" height="64"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Version History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QYl-yT-8IU">
+                            <rect key="frame" x="35" y="8" width="600" height="48"/>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="22"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="eP2-eK-s6A"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Gj-3u-BBW">
+                    <rect key="frame" x="0.0" y="751" width="650" height="64"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fxD-YZ-ho0">
+                            <rect key="frame" x="595" y="12" width="46" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="46" id="7Nc-Dm-kOK"/>
+                                <constraint firstAttribute="height" constant="40" id="FeM-vw-JBM"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                            <state key="normal" title="Ok">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="yesBtn:" destination="-1" eventType="touchUpInside" id="gWB-NO-kS7"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="fxD-YZ-ho0" firstAttribute="centerY" secondItem="6Gj-3u-BBW" secondAttribute="centerY" id="Eca-5J-xrZ"/>
+                        <constraint firstAttribute="height" constant="64" id="YyO-SR-JGL"/>
+                        <constraint firstAttribute="trailing" secondItem="fxD-YZ-ho0" secondAttribute="trailing" constant="9" id="lAM-XO-uT5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tgT-ix-Xqj" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="4hs-3w-utB"/>
+                <constraint firstAttribute="bottom" secondItem="6Gj-3u-BBW" secondAttribute="bottom" id="MNl-6d-ETv"/>
+                <constraint firstItem="tgT-ix-Xqj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="SEg-1Z-vL6"/>
+                <constraint firstAttribute="trailing" secondItem="6Gj-3u-BBW" secondAttribute="trailing" id="bN2-gg-9AF"/>
+                <constraint firstItem="6Gj-3u-BBW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ehP-Su-Qgj"/>
+                <constraint firstItem="2Cd-8p-DVW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="h45-Bk-uHK"/>
+                <constraint firstItem="6Gj-3u-BBW" firstAttribute="top" secondItem="2Cd-8p-DVW" secondAttribute="bottom" constant="1" id="nlo-my-Xk4"/>
+                <constraint firstAttribute="trailing" secondItem="tgT-ix-Xqj" secondAttribute="trailing" id="rjd-vB-XpX"/>
+                <constraint firstAttribute="trailing" secondItem="2Cd-8p-DVW" secondAttribute="trailing" id="u4h-6P-33F"/>
+                <constraint firstItem="2Cd-8p-DVW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="yQG-0b-Exe"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="188" y="-219.5"/>
+        </view>
+    </objects>
+</document>

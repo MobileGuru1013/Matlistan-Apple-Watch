@@ -1,0 +1,48 @@
+
+/* Class = "WKInterfaceButton"; title = "SKIP"; ObjectID = "3eJ-q2-3K1"; */
+"3eJ-q2-3K1.title" = "SKIP";
+
+/* Class = "WKInterfaceController"; title = "Back"; ObjectID = "4yL-Kr-9oD"; */
+"4yL-Kr-9oD.title" = "Back";
+
+/* Class = "WKInterfaceController"; title = "Select List"; ObjectID = "8yc-LC-BdL"; */
+"8yc-LC-BdL.title" = "Select List";
+
+/* Class = "WKInterfaceController"; title = "MatListan"; ObjectID = "AgC-eL-Hgc"; */
+"AgC-eL-Hgc.title" = "Matlistan";
+
+/* Class = "WKInterfaceButton"; title = "Fetching Data"; ObjectID = "GhY-7j-NLd"; */
+"GhY-7j-NLd.title" = "Fetching Data...";
+
+/* Class = "WKInterfaceLabel"; text = "No match found"; ObjectID = "LFL-Oa-tiS"; */
+"LFL-Oa-tiS.text" = "No match found";
+
+/* Class = "WKInterfaceLabel"; text = "Please Login in application"; ObjectID = "PrO-UZ-RSq"; */
+"PrO-UZ-RSq.text" = "Please Login in application";
+
+/* Class = "WKInterfaceLabel"; text = "NO"; ObjectID = "Rsf-8U-qpo"; */
+"Rsf-8U-qpo.text" = "NO";
+
+/* Class = "WKInterfaceLabel"; text = "Enable sorting according to store?"; ObjectID = "Y8d-Fq-Zgn"; */
+"Y8d-Fq-Zgn.text" = "Enable sorting according to store?";
+
+/* Class = "WKInterfaceButton"; title = "TRY AGAIN"; ObjectID = "asz-MP-idq"; */
+"asz-MP-idq.title" = "TRY AGAIN";
+
+/* Class = "WKInterfaceController"; title = "Select Store"; ObjectID = "cvb-Na-DeO"; */
+"cvb-Na-DeO.title" = "Select Store";
+
+/* Class = "WKInterfaceLabel"; text = "UNDO"; ObjectID = "ms3-N7-10y"; */
+"ms3-N7-10y.text" = "UNDO";
+
+/* Class = "WKInterfaceController"; title = "Back"; ObjectID = "sNn-FX-7DJ"; */
+"sNn-FX-7DJ.title" = "Back";
+
+/* Class = "WKInterfaceLabel"; text = "Taken Items"; ObjectID = "ttF-CQ-eyZ"; */
+"ttF-CQ-eyZ.text" = "Taken Items";
+
+/* Class = "WKInterfaceLabel"; text = "No Store"; ObjectID = "u74-7f-mWX"; */
+"u74-7f-mWX.text" = "No stores found";
+
+/* Class = "WKInterfaceLabel"; text = "YES"; ObjectID = "v3Z-iI-OFr"; */
+"v3Z-iI-OFr.text" = "YES";

@@ -1,0 +1,44 @@
+﻿<html>
+  <head>
+    <style type='text/css'>
+      body { background-color: #ffffff } 
+      a            { color:#0000ee }
+      div.title    { 
+          color:#000000; 
+          font-size:1.2em; 
+          font-weight:bold; 
+          margin-top:1em; 
+          margin-bottom:0.5em; 
+           }
+      div.subtitle { 
+          color:#000000; 
+          font-size:0.8em; 
+          margin-bottom:1em; 
+           }
+      div.freetext { color:#000000 }
+      div.list     { color:#000000; }
+      div.list ul {  padding-left: 1.5em; } 
+      div.list ol {  padding-left: 1.5em; } 
+    </style>
+  </head>
+  <body>
+$ 1.0.0
+  % Version 1.0.0
+  _ 2016-02-15
+    Appen är nu redo för lansering på App Store! Jämfört med betan går det nu att:
+    * Scanna streckkoder på varor för att lägga till dem i inköpslistan.
+    * Lägga till varor genom att tala in dem.
+	* Ändra antalet portioner på receptet - valt antal sparas tills du ändrar igen.
+	* "Dela" ett recept från din webbläsare till Matlistan, så sparas receptet i din receptsamling. Du kan då planera receptet och även ändra alla recept så att de blir som du vill ha dem.
+	* Möjlighet att sortera varukategorier.
+	* Byta inköpslista för en vara.
+	* Dela inköpslistan till andra appar, t.ex. för att SMS:a till någon utomstående.
+    * Logga in med Google-konto
+	* Appen försöker hitta den butik du besöker, och ger dig möjlighet att välja om nödvändigt. För att den automatiska sorteringen ska fungera, behöver appen veta vilken butik du besöker.
+$ 0.9.0
+  % Version 0.9.0
+  _ 2015-11-19
+    Äntligen är första versionen iOS-appen ute för publik testning!
+$ END_OF_CHANGE_LOG
+  </body>
+</html>

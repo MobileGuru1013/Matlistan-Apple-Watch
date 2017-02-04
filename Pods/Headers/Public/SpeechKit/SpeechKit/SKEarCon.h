@@ -1,0 +1,1 @@
+../../../../SpeechKit/SpeechKit.framework/Versions/A/Headers/SKEarCon.h
